@@ -1,0 +1,24 @@
+name: Generate-Fancy-Snake-Header
+
+on:
+  schedule: # execute every Sunday at 1PM UTC (9AM EST)
+    - cron: "0 13 * * 0"
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Animate snake
+    runs-on: ubuntu-latest
+    steps:
+      - uses: Platane/snk@master # Snake animation
+        id: snake-gif
+        with:
+          github_user_name: jmhatch
+          svg_out_path: dist/github-contribution-grid-snake.svg
+          
+      - uses: crazy-max/ghaction-github-pages@v2.1.3 # Deploy to output branch
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
