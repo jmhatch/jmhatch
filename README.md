@@ -1,7 +1,6 @@
 ### Hi there 👋, I'm Josh ![LGBTQIA+ Flag](https://github.com/jmhatch/flag-icons/blob/master/png/LGBT.png)
 
 - 😄 Pronouns: he / him / his
-
 <div>
 
   ![Snake animation](https://github.com/jmhatch/jmhatch/blob/output/github-contribution-grid-snake.svg)
