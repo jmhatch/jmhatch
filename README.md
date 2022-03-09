@@ -1,4 +1,4 @@
-### Hi there, I'm Josh  👋 + [LBGTQIA+](https://github.com/jmhatch/flag-icons/blob/master/png/LGBT.png)
+### Hi there 👋, I'm Josh ![LGBTQIA+ Flag](https://github.com/jmhatch/flag-icons/blob/master/png/LGBT.png)
 
 - 😄 Pronouns: he / him / his
 
