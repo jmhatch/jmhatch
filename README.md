@@ -1,4 +1,8 @@
-### Hi there 👋
+### Hi there, I'm Josh  👋
+- 😄 Pronouns: he / him / his
+
+<div>
+![Snake animation](https://github.com/jmhatch/jmhatch/blob/output/github-contribution-grid-snake.svg)
 
 <!--
 **jmhatch/jmhatch** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
