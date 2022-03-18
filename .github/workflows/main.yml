@@ -2,8 +2,8 @@ name: Generate-Fancy-Snake-Header
 
 on: 
   push:
-  schedule: # execute every Sunday at 1PM UTC (9AM EST)
-    - cron: "0 13 * * 0"
+  schedule: # execute every day at 11PM EST
+    - cron: '00 23 * * *'
   workflow_dispatch:
 
 jobs:
