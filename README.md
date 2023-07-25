@@ -4,9 +4,20 @@
 
 I'm a quantitative ecologist focusing on mathematical and statistical tools to gain insights into basic and applied ecological questions. Those questions can range from life history to demography and environmental influences on population dynamics and structure. At the moment, I'm focused on movement ecology and how to scale variation in movement across individuals to the population. 
 
-<div>
-
-  ![Snake animation](https://github.com/jmhatch/jmhatch/blob/output/github-contribution-grid-snake.svg)
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/jmhatch/jmhatch/output/github-contribution-grid-snake-dark.svg"
+  />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/jmhatch/jmhatch/output/github-contribution-grid-snake.svg"
+  />
+  <img
+    alt="github contribution grid snake animation"
+    src="https://raw.githubusercontent.com/jmhatch/jmhatch/output/github-contribution-grid-snake.svg"
+  />
+</picture>
 
 <!--
 **jmhatch/jmhatch** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
