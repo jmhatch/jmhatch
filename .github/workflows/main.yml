@@ -11,7 +11,7 @@ jobs:
     name: Animate snake
     runs-on: ubuntu-latest
     steps:
-      - uses: Platane/snk@master # Snake animation
+      - uses: jmhatch/snk@master # Snake animation
         id: snake-gif
         with:
           github_user_name: ${{ github.repository_owner }}
