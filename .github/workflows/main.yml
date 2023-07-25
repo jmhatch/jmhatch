@@ -2,22 +2,29 @@ name: Generate-Fancy-Snake-Header
 
 on: 
   push:
-  schedule: # execute every day at 11PM EST
-    - cron: '00 23 * * *'
+    branches:
+      - main
+  schedule: # execute every 24 hours
+    - cron: "0 */24 * * *"
   workflow_dispatch:
 
 jobs:
-  build:
+  generate:
     name: Animate snake
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
-      - uses: jmhatch/snk@master # Snake animation
-        id: snake-gif
+      - name: Animate snake
+        uses: jmhatch/snk/svg-only@v3 # Snake animation
         with:
           github_user_name: ${{ github.repository_owner }}
-          svg_out_path: dist/github-contribution-grid-snake.svg
+          outputs: | 
+            dist/github-contribution-grid-snake.svg
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           
-      - uses: crazy-max/ghaction-github-pages@v2.1.3 # Deploy to output branch
+      - name: Push snake animation to output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0 # Deploy to output branch
         with:
           target_branch: output
           build_dir: dist
