@@ -15,7 +15,7 @@ jobs:
     timeout-minutes: 10
     steps:
       - name: Animate snake
-        uses: jmhatch/snk/svg-only@v3 # Snake animation
+        uses: Platane/snk/svg-only@v # Snake animation
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: | 
