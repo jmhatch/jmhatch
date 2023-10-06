@@ -2,7 +2,7 @@
 
 - 😄 Pronouns: he / him / his
 
-I'm a quantitative ecologist focusing on mathematical and statistical tools to gain insights into basic and applied ecological questions. Those questions can range from life history to demography and environmental influences on population dynamics and structure. At the moment, I'm focused on movement ecology and how to scale variation in movement across individuals to the population to better understand interactions with offshore wind development.
+I'm a quantitative ecologist focusing on mathematical and statistical tools to gain insights into basic and applied ecological questions. Those questions can range from life history to demography and environmental influences on population dynamics and structure. At the moment, I'm focused on movement ecology and how to scale variation in movement across individuals to the population in hopes of better understanding potential interactions with offshore wind development.
 
 <picture>
   <source
