@@ -1,6 +1,6 @@
 ### Hi there 👋, I'm Josh ![LGBTQIA+ Flag](https://github.com/jmhatch/flag-icons/blob/master/png/LGBT.png)
 
-- 😄 Pronouns: he / him / his
+- 😄 Pronouns: he / him 
 
 I'm a quantitative ecologist focusing on mathematical and statistical tools to gain insights into basic and applied ecological questions. Those questions can range from life history to demography and environmental influences on population dynamics and structure. At the moment, I'm focused on movement ecology and how to scale variation in movement across individuals to the population in hopes of better understanding potential interactions with marine development.
 
